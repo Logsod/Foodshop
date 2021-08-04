@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Foodshop</string>
+    <string name="button_title_sizes">Размер:</string>
+    <string name="button_title_dough">Пышка:</string>
+    <string name="rub">₽</string>
+
+    <string name="not_found_error_message">Not found</string>
+    <string name="network_error_message">Network error</string>
+    <string name="remote_error_message">Remote server error</string>
+    <string name="unknown_error_message">Unknown error</string>
+    <string name="enter_address_request"><u>Введите адрес</u></string>
+
+
+</resources>

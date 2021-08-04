@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="1dp">
+    <!--
+    android:visibility="@{fooditem.basket_quantity > 0 ? View.VISIBLE : View.GONE}"
+    -->
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Количество"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.25"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/id_inc_button"
+                style="@style/buttonStyle"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:backgroundTint="#fc0"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/id_quantity"
+                android:layout_width="40sp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/id_dec_button"
+                style="@style/buttonStyle"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:backgroundTint="#fc0"
+                android:text="-" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

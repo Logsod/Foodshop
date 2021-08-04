@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="basketitem"
+            type="com.local.foodshop.models.BasketAdapterModel" />
+
+
+        <!--        data class BasketAdapterModel(-->
+        <!--        val image : String?,-->
+        <!--        val total_price : Long,-->
+        <!--        val size : String,-->
+        <!--        val size_option : String,-->
+        <!--        val dough : String,-->
+        <!--        val option : String-->
+        <!--        )-->
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+               >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Сумма:"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+
+                    />
+                <TextView
+                    android:id="@+id/id_total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:tag="option_total_price"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:tag="option_total_price"
+                    android:text="₽"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    app:layout_constraintRight_toRightOf="@id/id_total_price"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.android:mapkit:3.5.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.4-bin/caches/transforms-2/files-2.1/ee9f76d0d9cbeee2133ee6e66c6deee7/jetified-mapkit-3.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.4-bin/caches/transforms-2/files-2.1/ee9f76d0d9cbeee2133ee6e66c6deee7/jetified-mapkit-3.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.4-bin/caches/transforms-2/files-2.1/ee9f76d0d9cbeee2133ee6e66c6deee7/jetified-mapkit-3.5.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
