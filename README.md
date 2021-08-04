@@ -1,4 +1,4 @@
-# ChatLogMVVM
+#Shop catalog builder
   
 Shop builder over MVVM pattern
 
